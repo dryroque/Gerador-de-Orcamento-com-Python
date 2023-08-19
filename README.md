@@ -1,2 +1,2 @@
-# Gerador de Orcamento com Python
- Gerador de Orcamento automatico com Python
+# Gerador de Orçamento com Python
+ Gerador de Orçamento automático com Python
