@@ -1,5 +1,6 @@
 from fpdf import FPDF
 
+#dados para colocar no pdf
 projeto_nome = input("Digite o nome do projeto: ")
 horas_estimadas = input("Horas estimadas: ")
 valor_hora = input("Valor da hora: ")
@@ -16,6 +17,7 @@ pdf.add_page()
 pdf.set_font("Arial")
 pdf.image("template.png", x=0, y=0)
 
+#posicoes para colocar os dados no pdf
 pdf.text(115, 145, projeto_nome)
 pdf.text(115, 160, horas_estimadas)
 pdf.text(115, 175, valor_hora)
