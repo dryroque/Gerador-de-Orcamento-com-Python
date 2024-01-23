@@ -15,7 +15,7 @@ pdf = FPDF()
 
 pdf.add_page()
 pdf.set_font("Arial")
-pdf.image("template.png", x=0, y=0)
+pdf.image("PROJETO/Gerador de Orçamento/template.png", x=0, y=0)
 
 #posicoes para colocar os dados no pdf
 pdf.text(115, 145, projeto_nome)
@@ -24,4 +24,4 @@ pdf.text(115, 175, valor_hora)
 pdf.text(115, 190, tempo_estimado)
 pdf.text(115, 205, str(valor_total))
 
-pdf.output("Orçamento.pdf")
+pdf.output("PROJETO/Gerador de Orçamento/Orçamento_Projeto.pdf")
